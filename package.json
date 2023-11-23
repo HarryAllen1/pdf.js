@@ -1,6 +1,8 @@
 {
   "name": "pdf.js",
   "type": "module",
+  "types": "src/pdf.d.ts",
+  "main": "src/pdf.js",
   "devDependencies": {
     "@babel/core": "^7.23.3",
     "@babel/preset-env": "^7.23.3",
