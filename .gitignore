@@ -7,3 +7,9 @@ Makefile
 node_modules/
 examples/node/svgdump/
 examples/node/pdf2png/*.png
+test/
+l10n/
+external/
+extensions/
+examples/
+docs/
