@@ -15,7 +15,7 @@
 
 /** @typedef {import("../src/display/draw_layer.js").DrawLayer} DrawLayer */
 
-import { DrawLayer } from "pdfjs-lib";
+import { DrawLayer } from "../src/pdf.js";
 
 /**
  * @typedef {Object} DrawLayerBuilderOptions

@@ -50,7 +50,7 @@ import {
   shadow,
   UnexpectedResponseException,
   version,
-} from "pdfjs-lib";
+} from "../src/pdf.js";
 import { AppOptions, OptionKind } from "./app_options.js";
 import { AutomationEventBus, EventBus } from "./event_utils.js";
 import { LinkTarget, PDFLinkService } from "./pdf_link_service.js";

@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-import { AnnotationMode, PixelsPerInch } from "pdfjs-lib";
+import { AnnotationMode, PixelsPerInch } from "../src/pdf.js";
 import { PDFPrintServiceFactory, PDFViewerApplication } from "./app.js";
 import { getXfaHtmlForPrinting } from "./print_utils.js";
 

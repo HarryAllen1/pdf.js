@@ -18,7 +18,7 @@
 // eslint-disable-next-line max-len
 /** @typedef {import("./pdf_thumbnail_viewer").PDFThumbnailViewer} PDFThumbnailViewer */
 
-import { RenderingCancelledException } from "pdfjs-lib";
+import { RenderingCancelledException } from "../src/pdf.js";
 import { RenderingStates } from "./ui_utils.js";
 
 const CLEANUP_TIMEOUT = 30000;

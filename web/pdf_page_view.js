@@ -30,7 +30,7 @@ import {
   RenderingCancelledException,
   setLayerDimensions,
   shadow,
-} from "pdfjs-lib";
+} from "../src/pdf.js";
 import {
   approximateFraction,
   DEFAULT_SCALE,

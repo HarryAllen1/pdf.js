@@ -37,7 +37,7 @@ import {
   PromiseCapability,
   shadow,
   version,
-} from "pdfjs-lib";
+} from "../src/pdf.js";
 import {
   DEFAULT_SCALE,
   DEFAULT_SCALE_DELTA,

@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-import { AnnotationEditorParamsType } from "pdfjs-lib";
+import { AnnotationEditorParamsType } from "../src/pdf.js";
 
 class AnnotationEditorParams {
   /**

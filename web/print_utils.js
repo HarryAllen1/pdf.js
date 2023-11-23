@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-import { getXfaPageViewport, PixelsPerInch } from "pdfjs-lib";
+import { getXfaPageViewport, PixelsPerInch } from "../src/pdf.js";
 import { SimpleLinkService } from "./pdf_link_service.js";
 import { XfaLayerBuilder } from "./xfa_layer_builder.js";
 

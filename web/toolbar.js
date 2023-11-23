@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-import { AnnotationEditorType, noContextMenu } from "pdfjs-lib";
+import { AnnotationEditorType, noContextMenu } from "../src/pdf.js";
 import {
   DEFAULT_SCALE,
   DEFAULT_SCALE_VALUE,

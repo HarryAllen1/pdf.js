@@ -518,10 +518,10 @@ export type PDFWorkerParameters = {
 };
 /** @type {string} */
 export const build: string;
-export const DefaultCanvasFactory: typeof DOMCanvasFactory | typeof NodeCanvasFactory;
-export const DefaultCMapReaderFactory: typeof NodeCMapReaderFactory;
-export const DefaultFilterFactory: typeof DOMFilterFactory | typeof NodeFilterFactory;
-export const DefaultStandardFontDataFactory: typeof NodeStandardFontDataFactory;
+export const DefaultCanvasFactory: any;
+export const DefaultCMapReaderFactory: any;
+export const DefaultFilterFactory: any;
+export const DefaultStandardFontDataFactory: any;
 /**
  * @typedef { Int8Array | Uint8Array | Uint8ClampedArray |
  *            Int16Array | Uint16Array |
@@ -1422,12 +1422,6 @@ export const version: string;
 import { PageViewport } from "./display_utils.js";
 import { OptionalContentConfig } from "./optional_content_config.js";
 import { PrintAnnotationStorage } from "./annotation_storage.js";
-import { DOMCanvasFactory } from "./display_utils.js";
-import { NodeCanvasFactory } from "display-node_utils";
-import { NodeCMapReaderFactory } from "display-node_utils";
-import { DOMFilterFactory } from "./display_utils.js";
-import { NodeFilterFactory } from "display-node_utils";
-import { NodeStandardFontDataFactory } from "display-node_utils";
 import { PromiseCapability } from "../shared/util.js";
 import { AnnotationStorage } from "./annotation_storage.js";
 import { info } from "../shared/util.js";

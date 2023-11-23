@@ -18,7 +18,7 @@
 import { FluentBundle, FluentResource } from "fluent-bundle";
 import { DOMLocalization } from "fluent-dom";
 import { L10n } from "./l10n.js";
-import { shadow } from "pdfjs-lib";
+import { shadow } from "../src/pdf.js";
 
 /**
  * @implements {IL10n}

@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-import { DOMSVGFactory, shadow } from "pdfjs-lib";
+import { DOMSVGFactory, shadow } from "../src/pdf.js";
 
 class AltTextManager {
   #boundUpdateUIState = this.#updateUIState.bind(this);

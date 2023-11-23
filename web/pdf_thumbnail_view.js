@@ -24,7 +24,7 @@
 /** @typedef {import("./pdf_rendering_queue").PDFRenderingQueue} PDFRenderingQueue */
 
 import { OutputScale, RenderingStates } from "./ui_utils.js";
-import { RenderingCancelledException } from "pdfjs-lib";
+import { RenderingCancelledException } from "../src/pdf.js";
 
 const DRAW_UPSCALE_FACTOR = 2; // See comment in `PDFThumbnailView.draw` below.
 const MAX_NUM_SCALING_STEPS = 3;

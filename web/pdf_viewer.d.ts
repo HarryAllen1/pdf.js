@@ -188,14 +188,7 @@ export class PDFViewer {
     removePageBorders: boolean | undefined;
     isOffscreenCanvasSupported: boolean;
     maxCanvasPixels: number | undefined;
-    l10n: {
-        getLanguage(): any;
-        getDirection(): any;
-        get(ids: any, args: null | undefined, fallback: any): Promise<any>;
-        translate(element: any): Promise<any>;
-        pause(): any;
-        resume(): any;
-    };
+    l10n: any;
     pageColors: Object | null;
     defaultRenderingQueue: boolean;
     renderingQueue: PDFRenderingQueue | undefined;
@@ -458,4 +451,4 @@ export class PDFViewer {
 }
 import { PDFRenderingQueue } from "./pdf_rendering_queue.js";
 import { SimpleLinkService } from "./pdf_link_service.js";
-import { PromiseCapability } from "pdfjs-lib";
+import { PromiseCapability } from "../src/pdf.js";

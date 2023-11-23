@@ -106,4 +106,4 @@ export class PDFFindController {
     _rawQuery: any;
     #private;
 }
-import { PromiseCapability } from "pdfjs-lib";
+import { PromiseCapability } from "../src/pdf.js";

@@ -24,7 +24,7 @@
 // eslint-disable-next-line max-len
 /** @typedef {import("../src/display/annotation_layer.js").AnnotationLayer} AnnotationLayer */
 
-import { AnnotationEditorLayer } from "pdfjs-lib";
+import { AnnotationEditorLayer } from "../src/pdf.js";
 import { NullL10n } from "web-l10n_utils";
 
 /**

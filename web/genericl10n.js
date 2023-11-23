@@ -17,7 +17,7 @@
 
 import { FluentBundle, FluentResource } from "fluent-bundle";
 import { DOMLocalization } from "fluent-dom";
-import { fetchData } from "pdfjs-lib";
+import { fetchData } from "../src/pdf.js";
 import { L10n } from "./l10n.js";
 
 /**

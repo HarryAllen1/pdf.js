@@ -14,7 +14,7 @@
  */
 
 import { BaseTreeViewer } from "./base_tree_viewer.js";
-import { PromiseCapability } from "pdfjs-lib";
+import { PromiseCapability } from "../src/pdf.js";
 import { SidebarView } from "./ui_utils.js";
 
 /**

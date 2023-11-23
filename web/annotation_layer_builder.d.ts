@@ -75,4 +75,4 @@ export class AnnotationLayerBuilder {
     hide(): void;
     #private;
 }
-import { AnnotationLayer } from "pdfjs-lib";
+import { AnnotationLayer } from "../src/pdf.js";

@@ -20,7 +20,7 @@
 // eslint-disable-next-line max-len
 /** @typedef {import("./text_accessibility.js").TextAccessibilityManager} TextAccessibilityManager */
 
-import { normalizeUnicode, renderTextLayer, updateTextLayer } from "pdfjs-lib";
+import { normalizeUnicode, renderTextLayer, updateTextLayer } from "../src/pdf.js";
 import { removeNullCharacters } from "./ui_utils.js";
 
 /**

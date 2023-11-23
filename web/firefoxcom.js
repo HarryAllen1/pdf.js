@@ -14,7 +14,7 @@
  */
 
 import { DefaultExternalServices, PDFViewerApplication } from "./app.js";
-import { isPdfFile, PDFDataRangeTransport } from "pdfjs-lib";
+import { isPdfFile, PDFDataRangeTransport } from "../src/pdf.js";
 import { BasePreferences } from "./preferences.js";
 import { DEFAULT_SCALE_VALUE } from "./ui_utils.js";
 import { L10n } from "./l10n.js";

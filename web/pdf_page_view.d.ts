@@ -104,14 +104,7 @@ export class PDFPageView implements IRenderableView {
     pageColors: Object | null;
     eventBus: import("./event_utils").EventBus;
     renderingQueue: import("./pdf_rendering_queue").PDFRenderingQueue | undefined;
-    l10n: {
-        getLanguage(): any;
-        getDirection(): any;
-        get(ids: any, args: null | undefined, fallback: any): Promise<any>;
-        translate(element: any): Promise<any>;
-        pause(): any;
-        resume(): any;
-    };
+    l10n: any;
     renderTask: any;
     resume: (() => void) | null;
     _isStandalone: boolean | undefined;
